@@ -44,5 +44,10 @@ function allWagesFor(obj) {
   return total 
 }
 
+function findEmployeeByFirstName(obj, name) {
+  return obj.find(e => e.firstName === name)
+}
 
+function calculatePayroll(array) {
 
+}
